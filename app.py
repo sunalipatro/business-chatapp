@@ -17,7 +17,7 @@ load_dotenv()
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 # Streamlit App Configuration
-st.set_page_config(page_title="Multi-Function App")
+st.set_page_config(page_title="Business chat app")
 
 # Sidebar Navigation
 st.sidebar.title("Navigation")
@@ -25,7 +25,7 @@ page = st.sidebar.radio("Go to", ["Text to SQL", "Ask Your PDF"])
 
 # Text to SQL Functionality
 def text_to_sql():
-    st.header("Gemini App To Retrieve SQL Data")
+    st.header("App To Retrieve SQL Data")
     
     # Get the database file from the user
     uploaded_file = st.file_uploader("Choose a database file", type=['db'])
