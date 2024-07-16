@@ -3,7 +3,7 @@ Application with LLM models to enable automated SQL query generation from a data
 
 
 
-[Check the app](https://business-chatapp.streamlit.app/)
+
 
 Create a new environment
 
